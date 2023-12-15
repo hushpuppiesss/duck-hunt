@@ -51,7 +51,88 @@ public class TileManager {
     public void getTileImage()
     {
         try {
-            //
+
+            tile[0] = new Tile();
+            tile[0].image = loadImage("/res/tiles/crate blueberries.png");
+            tile[0].collision = true;
+
+            tile[1] = new Tile();
+            tile[1].image = loadImage("/res/tiles/crate herb.png");
+
+            tile[2] = new Tile();
+            tile[2].image = loadImage("/res/tiles/crate_apples.png");
+
+            tile[3] = new Tile();
+            tile[3].image = loadImage("/res/tiles/crate_oranges.png");
+
+            tile[4] = new Tile();
+            tile[4].image = loadImage("/res/tiles/grass bush flower.png");
+
+            tile[5] = new Tile();
+            tile[5].image = loadImage("/res/tiles/grass bush.png");
+
+            tile[6] = new Tile();
+            tile[6].image = loadImage("/res/tiles/grass flowers.png");
+
+            tile[7] = new Tile();
+            tile[7].image = loadImage("/res/tiles/grass shrubs.png");
+
+            tile[8] = new Tile();
+            tile[8].image = loadImage("/res/tiles/grass stone path.png");
+
+            tile[9] = new Tile();
+            tile[9].image = loadImage("/res/tiles/grass.png");
+
+            tile[10] = new Tile();
+            tile[10].image = loadImage("/res/tiles/pot.png");
+
+            tile[11] = new Tile();
+            tile[11].image = loadImage("/res/tiles/soil center.png");
+
+            tile[12] = new Tile();
+            tile[12].image = loadImage("/res/tiles/soil left.png");
+
+            tile[13] = new Tile();
+            tile[13].image = loadImage("/res/tiles/soil right.png");
+
+            tile[14] = new Tile();
+            tile[14].image = loadImage("/res/tiles/water0.png");
+
+            tile[15] = new Tile();
+            tile[15].image = loadImage("/res/tiles/water1.png");
+
+            tile[16] = new Tile();
+            tile[16].image = loadImage("/res/tiles/water10.png");
+
+            tile[17] = new Tile();
+            tile[17].image = loadImage("/res/tiles/water11.png");
+
+            tile[18] = new Tile();
+            tile[18].image = loadImage("/res/tiles/water12.png");
+
+            tile[19] = new Tile();
+            tile[19].image = loadImage("/res/tiles/water2.png");
+
+            tile[20] = new Tile();
+            tile[20].image = loadImage("/res/tiles/water3.png");
+
+            tile[21] = new Tile();
+            tile[21].image = loadImage("/res/tiles/water4.png");
+
+            tile[22] = new Tile();
+            tile[22].image = loadImage("/res/tiles/water5.png");
+
+            tile[23] = new Tile();
+            tile[23].image = loadImage("/res/tiles/water6.png");
+
+            tile[24] = new Tile();
+            tile[24].image = loadImage("/res/tiles/water7.png");
+
+            tile[25] = new Tile();
+            tile[25].image = loadImage("/res/tiles/water8.png");
+
+            tile[26] = new Tile();
+            tile[26].image = loadImage("/res/tiles/water9.png");
 
         } catch (IOException e)
         {

@@ -1,76 +1,54 @@
-carpet_green1.png
-false
-carpet_green2.png
-false
-carpet_green3.png
-false
-carpet_green4.png
-false
-carpet_green5.png
-false
-carpet_green6.png
-false
-carpet_green7.png
-false
-carpet_green8.png
-false
-carpet_green9.png
-false
-carpet_red1.png
-false
-carpet_red2.png
-false
-carpet_red3.png
-false
-carpet_red4.png
-false
-carpet_red5.png
-false
-carpet_red6.png
-false
-carpet_red7.png
-false
-carpet_red8.png
-false
-carpet_red9.png
-false
-carpet_yellow1.png
-false
-carpet_yellow2.png
-false
-carpet_yellow3.png
-false
-carpet_yellow4.png
-false
-carpet_yellow5.png
-false
-carpet_yellow6.png
-false
-carpet_yellow7.png
-false
-carpet_yellow8.png
-false
-carpet_yellow9.png
-false
-cheese bowl.png
-true
-crate apples.png
-true
 crate blueberries.png
-true
-crate empty.png
 true
 crate herb.png
 true
-crate oranges.png
+crate_apples.png
 true
-empty bowl.png
+crate_oranges.png
 true
-flour bag.png
+grass bush flower.png
 true
-spill flour.png
+grass bush.png
+true
+grass flowers.png
 false
-tomato sauce.png
-true
-wood floor.png
+grass shrubs.png
 false
+grass stone path.png
+false
+grass.png
+false
+pot.png
+true
+soil center.png
+false
+soil left.png
+false
+soil right.png
+false
+water0.png
+true
+water1.png
+true
+water10.png
+true
+water11.png
+true
+water12.png
+true
+water2.png
+true
+water3.png
+true
+water4.png
+true
+water5.png
+true
+water6.png
+true
+water7.png
+true
+water8.png
+true
+water9.png
+true
