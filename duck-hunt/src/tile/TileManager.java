@@ -58,18 +58,23 @@ public class TileManager {
 
             tile[1] = new Tile();
             tile[1].image = loadImage("/res/tiles/crate herb.png");
+            tile[1].collision = true;
 
             tile[2] = new Tile();
             tile[2].image = loadImage("/res/tiles/crate_apples.png");
+            tile[2].collision = true;
 
             tile[3] = new Tile();
             tile[3].image = loadImage("/res/tiles/crate_oranges.png");
+            tile[3].collision = true;
 
             tile[4] = new Tile();
             tile[4].image = loadImage("/res/tiles/grass bush flower.png");
+            tile[4].collision = true;
 
             tile[5] = new Tile();
             tile[5].image = loadImage("/res/tiles/grass bush.png");
+            tile[5].collision = true;
 
             tile[6] = new Tile();
             tile[6].image = loadImage("/res/tiles/grass flowers.png");
@@ -85,6 +90,7 @@ public class TileManager {
 
             tile[10] = new Tile();
             tile[10].image = loadImage("/res/tiles/pot.png");
+            tile[10].collision = true;
 
             tile[11] = new Tile();
             tile[11].image = loadImage("/res/tiles/soil center.png");
@@ -133,6 +139,11 @@ public class TileManager {
 
             tile[26] = new Tile();
             tile[26].image = loadImage("/res/tiles/water9.png");
+
+            for (int i = 14; i < 27; i++)
+            {
+                tile[i].collision = true;
+            }
 
         } catch (IOException e)
         {

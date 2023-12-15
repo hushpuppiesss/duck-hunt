@@ -15,7 +15,7 @@ public class Sound {
     // ----------------------- CONSTRUCTOR -----------------------
     public Sound()
     {
-        soundURL[0] = getClass().getResource("/sound/Achoo!.wav");
+        soundURL[0] = getClass().getResource("/sound/The Mountain Village.wav");
         soundURL[1] = getClass().getResource("/sound/nom.wav");
         soundURL[2] = getClass().getResource("/sound/slurp.wav");
 

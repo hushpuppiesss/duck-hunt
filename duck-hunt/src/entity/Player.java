@@ -64,8 +64,8 @@ public class Player extends Entity {
   {
     // spawning player in the middleish of the map
     worldX = gp.tileSize * 25;
-    worldY = gp.tileSize * 25;
-    speed = 3;
+    worldY = 0;
+    speed = 4;
     direction = "down";
   }
 
@@ -131,23 +131,23 @@ public class Player extends Entity {
       // MOVING ANIMATION
 
       // DIAGONAL MOVEMENT
-      if (keyH.downPressed && keyH.leftPressed) {
-        direction = "left";
-        worldY += speed;
-        worldX -= speed;
-      } else if (keyH.downPressed && keyH.rightPressed) {
-        direction = "right";
-        worldY += speed;
-        worldX += speed;
-      } else if (keyH.upPressed && keyH.leftPressed) {
-        direction = "left";
-        worldY -= speed;
-        worldX -= speed;
-      } else if (keyH.upPressed && keyH.rightPressed) {
-        direction = "right";
-        worldY -= speed;
-        worldX += speed;
-      }
+//      if (keyH.downPressed && keyH.leftPressed) {
+//        direction = "left";
+//        worldY += speed;
+//        worldX -= speed;
+//      } else if (keyH.downPressed && keyH.rightPressed) {
+//        direction = "right";
+//        worldY += speed;
+//        worldX += speed;
+//      } else if (keyH.upPressed && keyH.leftPressed) {
+//        direction = "left";
+//        worldY -= speed;
+//        worldX -= speed;
+//      } else if (keyH.upPressed && keyH.rightPressed) {
+//        direction = "right";
+//        worldY -= speed;
+//        worldX += speed;
+//      }
       // HORIZONTAL AND VERTICAL MOVEMENT
       if (keyH.upPressed) {
         direction = "up";
