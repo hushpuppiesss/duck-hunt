@@ -12,7 +12,7 @@ public class OBJ_Pudding extends SuperObject{
         name = "Defense Pudding";
         try {
             image = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/buffs/pudding1.png")));
-           image2 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/buffs/pudding2.png")));
+            image2 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/buffs/pudding2.png")));
             image3 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/res/buffs/pudding3.png")));
         } catch (IOException e) {
             e.printStackTrace();

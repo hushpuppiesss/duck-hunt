@@ -8,6 +8,7 @@ package main;
 
 import object.OBJ_Boba;
 import object.OBJ_Broccoli;
+import object.OBJ_Pot;
 import object.OBJ_Pudding;
 
 public class PositionHandler {
@@ -35,6 +36,11 @@ public class PositionHandler {
         gp.obj[1]=new OBJ_Broccoli();
         gp.obj[1].worldX = 15 * gp.tileSize;
         gp.obj[1].worldY = 6 * gp.tileSize;
+
+        // a pot
+        gp.obj[3] = new OBJ_Pot();
+        gp.obj[3].worldX = 12 * gp.tileSize;
+        gp.obj[3].worldY = 46 * gp.tileSize;
     }
 }
 

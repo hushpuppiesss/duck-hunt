@@ -65,7 +65,7 @@ public class Player extends Entity {
     // spawning player in the middleish of the map
     worldX = gp.tileSize * 25;
     worldY = 0;
-    speed = 4;
+    speed = 6;
     direction = "down";
   }
 

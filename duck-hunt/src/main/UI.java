@@ -9,7 +9,7 @@ public class UI {
 
     GamePanel gp;
     // font
-    Font arial_40;
+    Font serif_35;
 
     // images
     BufferedImage bobaImage;
@@ -24,7 +24,7 @@ public class UI {
     public UI(GamePanel gp) {
         this.gp = gp;
 
-        arial_40 = new Font("Arial", Font.PLAIN, 40);
+        serif_35 = new Font("Serif", Font.PLAIN, 35);
         OBJ_Boba boba = new OBJ_Boba();
         bobaImage = boba.image;
     }
@@ -36,14 +36,14 @@ public class UI {
 
     public void draw (Graphics2D g2) {
 
-        g2.setFont(arial_40);
+        g2.setFont(serif_35);
         g2.setColor(Color.white);
 
         // ----------------------- DRAWING MESSAGE -----------------------
         if (messageOn) {
 
             g2.setFont(g2.getFont().deriveFont(30F));
-            g2.drawString(message,gp.tileSize/2, gp.tileSize * 5);
+            g2.drawString(message,gp.tileSize / 2, gp.tileSize * 5);
 
             messageCounter++;
 
